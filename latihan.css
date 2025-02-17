@@ -1,0 +1,12 @@
+*{
+    font-family: sans-serif;
+
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #b8789c;
+    text-align: center;
+    font-weight: bold;
+}

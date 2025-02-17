@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    background-color: rgb(244, 241, 241);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: #b8789c;
+    box-shadow: 0 4px 8px 0 rgba(2, 197, 236, 0.2);
+    display: flex;
+}
+
+header h1 a:hover {
+    color: #ffffff;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 16px 32px;
+}
+
+header ul li {
+    padding-top: 23px;
+    padding-left: 10px;
+}
+
+header ul li a:hover {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-decoration: double;
+    margin: 20px;
+    font-style: oblique;
+}
+
+mark {
+    background: #b8789c;
+    color: white;
+    padding: 5px;
+    border-radius: 5%;
+    float: left;
+}
+
+#competence h2, img {
+    text-align: center;
+    width: 95%;
+}
+
+#profile header, h2, figure, img {
+    text-align: center;
+    margin: 10px;
+}
+
+h2 span {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#profile img {
+    width: 200px;
+    border-radius: 65%;
+}
+
+#profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 1 1 25%;
+    padding: 10px;
+}
+
+#content {
+    flex: 1 1 75%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+#ContactForm_contact-form-name,
+#ContactForm_contact-form-email,
+#ContactForm_contact-form-message {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background: #fff;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    transition: all 0.5s ease-out;
+}
+
+#ContactForm_contact-form-submit {
+    width: 100%;
+    background: rbg (220, 144, 174);
+    color: rgb(255, 255, 255);
+    margin: 10px auto;
+    padding: 10px 18px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #b8789c;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+    }
+
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
